@@ -32,6 +32,7 @@ public class TCPConnection {
                     eventListener.onException(TCPConnection.this, e);
                 }finally{
                     eventListener.onDisconnect(TCPConnection.this);
+
                 }
             }
         });

@@ -10,6 +10,7 @@ public class ChatServer implements TCPConnectionListener {
     public static void main(String[] args){
         new ChatServer();
 
+
     }
     private final ArrayList<TCPConnection> connections = new ArrayList<>();
     private ChatServer(){
